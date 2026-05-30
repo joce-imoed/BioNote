@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioNote - Materi Bakteri</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        header { background-color: #004080; color: white; padding: 20px; text-align: center; }
+        nav { display: flex; justify-content: center; background-color: #002d5a; padding: 10px; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        .container { max-width: 800px; margin: 30px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { color: #004080; margin-bottom: 15px; border-bottom: 2px solid #80b3ff; padding-bottom: 5px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        ul { margin-bottom: 15px; margin-left: 20px; }
+        .image-box { text-align: center; margin: 20px 0; background: #e6f2ff; padding: 15px; border-radius: 8px; }
+        .image-placeholder { font-style: italic; color: #555; display: inline-block; padding: 40px; border: 2px dashed #0059b3; width: 100%; max-width: 500px; }
+        .btn-back { display: inline-block; background-color: #0059b3; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header><h1>Materi: Bakteri (Monera)</h1></header>
+    <nav><a href="index.html">Kembali ke Home</a><a href="catatan.html">Buka Catatan</a></nav>
+    
+    <div class="container">
+        <h2>1. Karakteristik Umum Bakteri</h2>
+        <p>Bakteri adalah organisme mikroskopis bersel tunggal (uniseluler) yang bersifat <strong>prokariotik</strong>, artinya tidak memiliki membran inti sel. Ukurannya berkisar antara 0,5 hingga 5 mikrometer.</p>
+        
+        <div class="image-box">
+            <span class="image-placeholder">[Gambar Struktur Sel Bakteri: Menunjukkan Dinding Sel, Flagela, DNA Sirkuler, dan Ribosom]</span>
+        </div>
+
+        <h2>2. Struktur Tubuh Bakteri</h2>
+        <ul>
+            <li><strong>Dinding Sel:</strong> Terbuat dari peptidoglikan yang berfungsi sebagai pelindung dan pemberi bentuk sel.</li>
+            <li><strong>Membran Plasma:</strong> Mengatur keluar masuknya zat ke dalam sel.</li>
+            <li><strong>Flagela:</strong> Alat gerak berbentuk cambuk pada beberapa jenis bakteri.</li>
+            <li><strong>Plasmid:</strong> DNA non-kromosom berbentuk sirkuler yang membawa sifat tertentu (seperti resistensi antibiotik).</li>
+        </ul>
+
+        <h2>3. Peran Bakteri dalam Kehidupan</h2>
+        <p><strong>Menguntungkan:</strong> <em>Lactobacillus bulgaricus</em> (pembuatan yoghurt), <em>Rhizobium</em> (mengikat nitrogen di tanah).</p>
+        <p><strong>Merugikan:</strong> <em>Salmonella typhi</em> (penyebab tifus), <em>Mycobacterium tuberculosis</em> (penyebab TBC).</p>
+
+        <a href="index.html" class="btn-back">⬅ Kembali ke Menu Utama</a>
+    </div>
+</body>
+</html>
