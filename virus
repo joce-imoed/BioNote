@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioNote - Materi Virus</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #f4f7f6; color: #333; line-height: 1.6; }
+        header { background-color: #004080; color: white; padding: 20px; text-align: center; }
+        nav { display: flex; justify-content: center; background-color: #002d5a; padding: 10px; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        .container { max-width: 800px; margin: 30px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { color: #004080; margin-bottom: 15px; border-bottom: 2px solid #80b3ff; padding-bottom: 5px; }
+        p { margin-bottom: 15px; text-align: justify; }
+        .image-box { text-align: center; margin: 20px 0; background: #e6f2ff; padding: 15px; border-radius: 8px; }
+        .image-placeholder { font-style: italic; color: #555; display: inline-block; padding: 40px; border: 2px dashed #0059b3; width: 100%; max-width: 500px; }
+        .btn-back { display: inline-block; background-color: #0059b3; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header><h1>Materi: Virus</h1></header>
+    <nav><a href="index.html">Kembali ke Home</a><a href="catatan.html">Buka Catatan</a></nav>
+    
+    <div class="container">
+        <h2>1. Ciri-Ciri Virus</h2>
+        <p>Virus sering disebut sebagai organisme peralihan antara benda mati dan makhluk hidup. Disebut benda mati karena dapat dikristalkan dan tidak memiliki sitoplasma (aseluler). Disebut makhluk hidup karena mampu bereproduksi saat berada di dalam sel inang hidup.</p>
+        
+        <div class="image-box">
+            <span class="image-placeholder">[Gambar Struktur Virus Bakteriofag: Kepala, Kapsid, Asam Nukleat DNA/RNA, Leher, Selubung Ekor, Serabut Ekor]</span>
+        </div>
+
+        <h2>2. Siklus Reproduksi Virus</h2>
+        <p>Virus bereproduksi menggunakan dua siklus utama:</p>
+        <ul>
+            <li><strong>Siklus Litik:</strong> Diakhiri dengan pecahnya (lisis) sel inang sehingga virus baru keluar.</li>
+            <li><strong>Siklus Lisogenik:</strong> DNA virus menyisip ke dalam DNA inang (membentuk profag) tanpa langsung menghancurkan sel tersebut.</li>
+        </ul>
+
+        <h2>3. Contoh Penyakit Akibat Virus</h2>
+        <p>Influenza, COVID-19, Demam Berdarah (Dengue), dan HIV/AIDS.</p>
+
+        <a href="index.html" class="btn-back">⬅ Kembali ke Menu Utama</a>
+    </div>
+</body>
+</html>
