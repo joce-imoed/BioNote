@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioNote - Home</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f4f7f6; color: #333; }
+        header { background-color: #004080; color: white; padding: 20px; text-align: center; }
+        nav { display: flex; justify-content: center; background-color: #002d5a; padding: 10px; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        nav a:hover { color: #80b3ff; }
+        .hero { background: linear-gradient(135deg, #0059b3, #80b3ff); color: white; padding: 60px 20px; text-align: center; }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+        .section-title { text-align: center; margin-bottom: 30px; color: #004080; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 20px; text-align: center; transition: transform 0.2s; border-top: 5px solid #0059b3; }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { margin-bottom: 15px; color: #004080; }
+        .card p { font-size: 0.9rem; color: #666; margin-bottom: 20px; }
+        .btn { display: inline-block; background-color: #0059b3; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .btn:hover { background-color: #004080; }
+        .btn-note { background-color: #2db300; }
+        .btn-note:hover { background-color: #208000; }
+        footer { background-color: #002d5a; color: white; text-align: center; padding: 15px; margin-top: 40px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BioNote 🌿</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="catatan.html">Catatan Saya</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Pusat Belajar Biologi Kelas 10</h2>
+        <p>Eksplorasi materi biologi dengan mudah, lengkap, dan catat poin pentingmu di sini!</p>
+    </div>
+
+    <div class="container">
+        <h2 class="section-title">Daftar Materi Biologi</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Bakteri (Monera)</h3>
+                <p>Pelajari struktur tubuh bakteri, cara reproduksi, serta peran bakteri yang menguntungkan dan merugikan.</p>
+                <a href="bakteri.html" class="btn">Buka Materi</a>
+            </div>
+            <div class="card">
+                <h3>Virus</h3>
+                <p>Materi tentang partikel mikroskopis: ciri-ciri virus, replikasi (litik & lisogenik), dan perannya bagi manusia.</p>
+                <a href="virus.html" class="btn">Buka Materi</a>
+            </div>
+            <div class="card">
+                <h3>Fungi (Jamur)</h3>
+                <p>Mengenal struktur hifa, klasifikasi jamur (Zygomycota, Ascomycota, dll), serta simbiosisnya.</p>
+                <a href="fungi.html" class="btn">Buka Materi</a>
+            </div>
+            <div class="card">
+                <h3>Keanekaragaman Hayati</h3>
+                <p>Memahami tingkat keanekaragaman gen, jenis, ekosistem, serta persebaran flora & fauna di Indonesia.</p>
+                <a href="keanekaragaman.html" class="btn">Buka Materi</a>
+            </div>
+            <div class="card">
+                <h3>Ekologi & Lingkungan</h3>
+                <p>Interaksi makhluk hidup dengan lingkungannya, rantai makanan, jaring-jaring makanan, dan daur biogeokimia.</p>
+                <a href="ekologi.html" class="html bnt" style="display:none;"></a>
+                <a href="ekologi.html" class="btn">Buka Materi</a>
+            </div>
+        </div>
+
+        <h2 class="section-title" style="margin-top: 50px;">Fitur Tambahan</h2>
+        <div style="text-align: center;">
+            <div class="card" style="max-width: 500px; margin: 0 auto; border-top: 5px solid #2db300;">
+                <h3>Buku Catatan Digital</h3>
+                <p>Sambil belajar, kamu bisa langsung menulis rangkuman atau poin penting materi di ruang catatan interaktif.</p>
+                <a href="catatan.html" class="btn btn-note">Buka Fitur Catatan</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 BioNote - Platform Belajar Biologi Interaktif</p>
+    </footer>
+
+</body>
+</html>
